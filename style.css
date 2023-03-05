@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Josefin+Sans:wght@300;400;500;600;700&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    width: 375px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: white;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main{
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+}
+
+.mainphotodesktop{
+    display: none;
+}
+
+.headerlogo{
+    margin-top: 32px;
+    margin-left: 34px;
+}
+
+.mainphotomobile{
+    margin-top: 32px;
+    width: 100%;
+}
+
+.mainh1{
+    margin-top: 50px;
+    color: #CE9898;
+    font-family: 'Josefin Sans';
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: 10.825397491455078px;
+    text-align: center;
+
+}
+
+.mainh12{
+    color: #423A3A;
+    font-family: 'Josefin Sans';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 10.825397491455078px;
+    text-align: center;
+
+}
+
+.mainp{
+    width: 311px;
+    color: #CE9898;
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 32px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+}
+
+footer{
+    padding-bottom: 92px;
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerbutton{
+    text-align: left;
+    position: relative;
+    width: 311px;
+    height: 48px;
+    border-radius: 28px;
+    opacity: 50%;
+    border-color: #CE9898;
+    background-color: #FFF4F4;
+    color: #CE9898;
+}
+
+.buttoninbutton{
+    position: absolute;
+    border-radius: 28px;
+    border: none;
+    background-color: #F8BFBF;
+    width: 64px;
+    height: 48px;
+    margin-left: 246px;
+}
+
+
+
+@media screen and (min-width:1440px) {
+
+    body{
+        width: 1440px;
+        box-sizing: border-box;
+        margin: auto;
+        background-image: url(./images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+       
+        
+        
+        
+    
+    }
+    
+    main{
+        width: 50%;
+        background: none;
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 165px;
+    }
+    
+    .mainphotomobile{
+        display: none;
+    }
+    
+    .headerlogo{
+        position: absolute;
+        margin-top: 76px;
+        margin-left: 165px;
+    }
+    
+    .mainphotodesktop{
+        margin-top: 0px;
+        margin-left: 820px;
+        display: block;
+        width: 43%;
+        height: 800px;
+    }
+    
+    .mainh1{
+        color: #CE9898;
+        font-family: 'Josefin Sans';
+        font-size: 64px;
+        font-weight: 300;
+        line-height: 64px;
+        letter-spacing: 10.825397491455078px;
+        text-align: left;
+    
+    }
+    
+    .mainh12{
+        color: #423A3A;
+        font-family: 'Josefin Sans';
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 71px;
+        letter-spacing: 10.825397491455078px;
+        text-align: left;
+    
+    }
+    
+    .mainp{
+        width: 444px;
+        height: 84px;
+        color: #CE9898;
+        font-family: 'Josefin Sans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 32px;
+        margin-bottom: 40px;
+    
+    }
+
+    footer{
+        background: none;
+        margin-top: -200px;
+        margin-left: 165px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        
+    }
+    
+    .footerbutton{
+        text-align: left;
+        position: relative;
+        width: 445px;
+        height: 56px;
+        border-radius: 28px;
+        opacity: 50%;
+        border-color: #CE9898;
+        background-color: #FFF4F4;
+        color: #CE9898;
+    }
+    
+    .buttoninbutton{
+        position: absolute;
+        border-radius: 28px;
+        border: none;
+        background-color: #F8BFBF;
+        width: 100px;
+        height: 56px;
+        margin-left: 345px;
+    }
+
+    
+
+
+    
+    
+    
+    
+    
+    
+}
